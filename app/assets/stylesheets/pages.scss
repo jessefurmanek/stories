@@ -3,8 +3,13 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 
-#simple-menu{
+#icon_open, #icon_close{
 	width:24px;
+}
+#icon-close{
+	width:24px;
+	cursor:pointer;
+	text-align:right;
 }
 
 .menu{
