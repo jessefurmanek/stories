@@ -3,16 +3,20 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 
-#icon_open, #icon_close{
+#icon_open{
 	width:24px;
 }
-#icon-close{
+
+#icon_close{
 	width:24px;
-	cursor:pointer;
-	text-align:right;
+	float:right;
+	margin: 1em 1em 1em 0;
+  cursor: pointer;
 }
 
 .menu{
+	margin-bottom:-5em;
+	background-color: transparent;
 	text-align:left;
 	padding: 1em;
 }
@@ -41,7 +45,27 @@ h1{
 }
 
 .supporting{
+	padding: 10vh 0 10vh 0;
 	text-align:center;
+}
+
+.supporting p{
+	font-weight:300;
+	font-size: 1.5em;
+}
+
+.supporting_pic{
+	background-image:image-url("https://ununsplash.imgix.net/photo-1417024321782-1375735f8987?q=75&fm=jpg&s=7af3f809a9c1b90b7fcbd71655b661bc");
+	background-size:150%;
+	background-repeat: no-repeat;
+	height:100vh;
+}
+.about{
+	background-image:image-url("https://unsplash.imgix.net/uploads/1411589183965bdf6e141/5f468e98?q=75&fm=jpg&s=007333c388fb36767cbd152600bea6b8
+");
+	background-size:150%;
+	background-repeat: no-repeat;
+	height:100vh;
 }
 
 .discover{

@@ -1,23 +1,9 @@
 <div class ="main">
-	<div id="sidr">
-	  <!-- Your content -->
-	  <ul>
-	    <li>
-	    	<a href="#">Home 	<span class = "pull-right"> <%= image_tag("http://s3.amazonaws.com/codecademy-content/projects/z2d/stories/close-white.svg", :id =>"icon_close") %></span></a></li>
-	    <li><a href="#">About</a></li>
-	    <li><a href="#">Contact</a></li>
-	  </ul>
-	</div>
-	<div class = "menu row">
-		<div class = "container">
-			<a href="#sidr"><%= image_tag("http://s3.amazonaws.com/codecademy-content/projects/z2d/stories/menu-white.svg", :id =>"icon_open") %></a>
-		</div>
-	</div>
-
+	
 	<div class = "front row">
 		<div class = "container">
 				<h1>Create and share Stories</h1>
-				<a class = "btn" href=#>Learn More</a>
+				<%= link_to "Learn More", about_path, :class =>"btn" %>
 		</div>
 	</div>
 </div>
@@ -25,7 +11,7 @@
 	<div class = "row">
 		<div class = "container">
 				<h1>Relive and share your adventures</h1>
-				<h3>Stories automatically creates a digital journal filled with only your best photos.</h3>
+				<p>Stories automatically creates a digital journal filled with only your best photos.</p>
 		</div>
 	</div>
 </div>
@@ -37,11 +23,9 @@
 	<div class = "row">
 		<div class = "container">
 				<h1>Discover Stories</h1>
-				<a class = "btn" href=#>Learn More</a>
+				<%= link_to "Learn More", about_path, :class =>"btn" %>
 		</div>
 	</div>
 </div>	
-<div class = "footer">
-	<h5>A SHUTTERBUGG PROJECT</h5>
-</div>
+
 
