@@ -1,0 +1,63 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+#simple-menu{
+	width:24px;
+}
+
+.menu{
+	text-align:left;
+	padding: 1em;
+}
+
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+h1{
+	font-weight:300;
+	font-size: 3em;
+}
+
+.main{
+	background-image:image-url("https://unsplash.imgix.net/uploads/1411724908903377d4696/2e9b0cb2?q=75&fm=jpg&s=2016c4932a7b7a1b629cb6890bff9977");
+	background-size:150%;
+	background-repeat: no-repeat;
+	height:100vh;
+}
+
+.front{
+	color:white;
+	padding-top:30vh;
+	text-align:center;
+}
+
+.supporting{
+	text-align:center;
+}
+
+.discover{
+	text-align:center;
+}
+
+.btn{
+	background-color:rgba(0,0,0,0.9);
+	border-radius:0;
+	color:#fff;
+	font-size:1.2em;
+	font-weight:100;
+	height:60px;
+	line-height:60px;
+	margin:40px 0;
+	padding:0;
+	transition:background-color .5s;
+	width:150px;
+	text-align:center;
+}
+
+.footer{
+	text-align:center;
+}
